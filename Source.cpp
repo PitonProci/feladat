@@ -396,6 +396,38 @@ int main(){
 }
 */
 
+//uhm well array megtoltese .empty()
+/*
+int main(){
+
+	string food[5];
+	int size = sizeof(food) / sizeof(food[0]);
+	string temp;
+
+	for (int i = 0; i < size; i++)
+	{
+		cout << "Add meg a kedvenc eteleid! vagy 'q'-t ha nincs tobb #" << i + 1 << ": ";
+		getline(cin, temp);
+		if (temp == "q") {
+			break;
+		}else {
+			food[i] = temp;
+		}
+
+	}
+
+	cout << "ezeket szereted:" << endl;
+	for (int j=0; !food[j].empty();j++){
+
+		cout << food[j] << endl;
+
+	}
+
+	return 0;
+}
+*/
+
+
 //vegre sort
 /*
 void sort(int arr[], int meret) {
